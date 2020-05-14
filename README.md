@@ -1,0 +1,6 @@
+- Variáveis
+- Funções
+- Condicionais
+- Estrutura de Repetição
+- Manipulação do DOM
+- Requisições Assíncronas
