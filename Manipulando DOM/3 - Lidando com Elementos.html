@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS</title>
+</head>
+
+<body>
+
+  <div id="app">
+
+  </div>
+
+  <script>
+
+    let link = document.createElement('A')
+    link.setAttribute('href', 'http://github.com/maxwel-silva')
+    link.setAttribute('title', 'GitHub')
+
+    let text = document.createTextNode('Acessar GitHub')
+    link.appendChild(text)
+
+    let container = document.querySelector('#app')
+    container.appendChild(link)
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS</title>
+</head>
+
+<body>
+
+  <div id="app">
+    <input type="text" name="nome" />
+    <button class="botao">Pressione</button>
+  </div>
+
+  <script>
+
+    let input = document.querySelector('input[name=nome]')
+    let btn = document.querySelector('button.botao')
+
+    btn.onclick = function () {
+      let text = input.value
+      
+      alert(text)
+    }
+
+  </script>
+</body>
+
+</html>

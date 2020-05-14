@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JS</title>
+</head>
+
+<body>
+  <script>
+
+    // Escreva uma função que dado um total de anos de estudo retorna o quão experiente o usuário é
+
+    function experiencia(anos) {
+
+      if (anos <= 1) {
+        return "Desenvolvedor Estágiario";
+
+      } else if (anos <= 3) {
+        return "Desenvolvedor Júnior";
+
+      } else if (anos <= 6) {
+        return "Desenvolvedor Pleno";
+
+      } else {
+        return "Desenvolvedor Sênior";
+      }
+    }
+
+    let anosEstudo = 2;
+
+    console.log(experiencia(anosEstudo));
+
+  </script>
+</body>
+
+</html>
